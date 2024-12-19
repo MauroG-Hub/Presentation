@@ -48,7 +48,7 @@
 
 /* Change the background color of Previous/Next buttons on hover */
 .carousel-controls button:hover {
-    background-color: #007bff; /* Replace with your desired color */
+    background-color: grey; /* Replace with your desired color */
     color: #fff;              /* Optional: Change text/icon color */
     border-color: #0056b3;    /* Optional: Add a border color */
     transition: background-color 0.3s ease; /* Smooth transition effect */
@@ -65,7 +65,7 @@
         inset 3px 3px 6px rgba(255, 255, 255, 0.6), /* Inner top light */
         inset -3px -3px 6px rgba(0, 0, 0, 0.3), /* Inner bottom shadow */
         8px 8px 16px rgba(0, 0, 0, 0.5); /* Outer shadow */
-    background-color: rgb(172, 232, 172);
+    background-color: lightblue;
 }
 
 .carousel-title {
