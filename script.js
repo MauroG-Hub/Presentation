@@ -1,36 +1,28 @@
 // Messages for each image
 const messages = [
-    "Laser Welding Delays",
-    "Preselection Settings",
-    "New Recipe Array Programs",
-    "Detecting Part Type Change",
-    "Higher Power Programs Code",
-    "Laser Program Selection",
-    "Indexing Program for Task Code",
-    "Laser Result - Task Accept or Reject",
-    "Tasks Reset EOC",
-	"Accomplishment",
-    "Operator Screen for Data Task Lost",
-    "Data When No Part on Station",
-    "Task Information",
-    "Memorizing Data Task Lost",
-    "Data File Station",
-    "Screen's Components",
-    "Layer Separation",
-    "Part Type 1",
-    "Picture Selection",
-    "Bubbles Visibility",
-    "Bubbles Appearance",
-    "Bubbles Positioning",
-    "Bubbles Display Info",
-    "Variables Multiplexing",
-    "Different Values for Recipes",
-    "Easy Coordinates Finder",
-	"Accomplishment"
+    "Introduction",
+    "Who is Mauro García",
+	"Project Description",
+    "Project Milestones",
+    "Incorrect Data Transfer - Diagnostic",
+    "Implemented Solution",
+    "Assymble Station not homing properly - Diagnostic",
+    "Implemented Solution",
+    "Cicle Time Reduction - Diagnostic",
+    "Implemented Solution",
+	"Rework Implementation - Problem Description",
+    "Rework Implementation - Data Storage",
+    "Rework Implementation - Traceability reboot",
+    "Rework Implementation - Vision System Welded Bypass",
+    "Rework Implementation - New Laser program selection",
+    "Project Final Results",
+    "What can Mauro contribute to Tesla",
+    "Mauro's goals",
+    "Conclusion"
     // Add messages for more images as needed
 ];
 
-const totalImages = 27; // Total number of images
+const totalImages = 19; // Total number of images
 const carouselInner = document.querySelector('.carousel-inner');
 const indicators = document.querySelector('.carousel-indicators');
 const carouselTitle = document.querySelector('.carousel-title'); 
@@ -267,3 +259,4 @@ carousel.addEventListener('mouseleave', () => {
         image.style.transformOrigin = 'center'; // Reset transform origin to center
     });
 });
+
