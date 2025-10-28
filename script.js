@@ -1,14 +1,14 @@
 // Messages for each image
 const messages = [
     "Introduction",
-    "Who is Mauro García",
+    "Who is Mauro García?",
 	"Project Description",
     "Project Milestones",
     "Incorrect Data Transfer - Diagnostic",
     "Implemented Solution",
     "Assymble Station not homing properly - Diagnostic",
     "Implemented Solution",
-    "Cicle Time Reduction - Diagnostic",
+    "Cycle Time Reduction - Diagnostic",
     "Implemented Solution",
 	"Rework Implementation - Problem Description",
     "Rework Implementation - Data Storage",
@@ -16,7 +16,8 @@ const messages = [
     "Rework Implementation - Vision System Welded Bypass",
     "Rework Implementation - New Laser program selection",
     "Project Final Results",
-    "What can Mauro contribute to Tesla",
+    "What can I bring to Tesla?",
+	"What can I bring to Tesla?",
     "Mauro's goals",
     "Conclusion"
     // Add messages for more images as needed
@@ -259,4 +260,5 @@ carousel.addEventListener('mouseleave', () => {
         image.style.transformOrigin = 'center'; // Reset transform origin to center
     });
 });
+
 
