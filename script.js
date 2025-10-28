@@ -6,7 +6,7 @@ const messages = [
     "Project Milestones",
     "Incorrect Data Transfer - Diagnostic",
     "Implemented Solution",
-    "Assymble Station not homing properly - Diagnostic",
+    "Assembly  Station not homing properly - Diagnostic",
     "Implemented Solution",
     "Cycle Time Reduction - Diagnostic",
     "Implemented Solution",
@@ -23,7 +23,7 @@ const messages = [
     // Add messages for more images as needed
 ];
 
-const totalImages = 19; // Total number of images
+const totalImages = 20; // Total number of images
 const carouselInner = document.querySelector('.carousel-inner');
 const indicators = document.querySelector('.carousel-indicators');
 const carouselTitle = document.querySelector('.carousel-title'); 
@@ -260,5 +260,6 @@ carousel.addEventListener('mouseleave', () => {
         image.style.transformOrigin = 'center'; // Reset transform origin to center
     });
 });
+
 
 
